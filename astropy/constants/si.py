@@ -28,7 +28,7 @@ k_B = Constant('k_B', "Boltzmann constant", 1.3806488e-23, 'J / (K)',
 c = Constant('c', "Speed of light in vacuum", 2.99792458e8, 'm / (s)', 0.,
              'CODATA 2010', system='si')
 
-# Gravitional constant
+# Gravitational constant
 G = Constant('G', "Gravitational constant", 6.67384e-11, 'm3 / (kg s2)',
              0.00080e-11, 'CODATA 2010', system='si')
 
@@ -97,8 +97,10 @@ mu0 = Constant('mu0', "Magnetic constant", 4.0e-7 * np.pi, 'N/A2', 0.0,
                'CODATA 2010', system='si')
 
 # Thomson scattering cross-section
-sigma_T = Constant('sigma_T', "Thomson scattering cross-section", 0.6652458734e-28, 'm2',
-                   0.0000000013e-28, 'CODATA 2010', system='si')
+sigma_T = Constant('sigma_T', "Thomson scattering cross-section",
+                   0.6652458734e-28, 'm2', 0.0000000013e-28,
+                   'CODATA 2010', system='si')
+
 
 # DISTANCE
 
@@ -124,7 +126,8 @@ L_bol0 = Constant('L_bol0', "Luminosity for absolute bolometric magnitude 0",
 
 # Wien wavelength displacement law constant
 b_wien = Constant('b_wien', 'Wien wavelength displacement law constant',
-                  2.8977721e-3, 'm K', 0.0000026e-3, 'CODATA 2010', system='si')
+                  2.8977721e-3, 'm K', 0.0000026e-3,
+                  'CODATA 2010', system='si')
 
 # SOLAR QUANTITIES
 
